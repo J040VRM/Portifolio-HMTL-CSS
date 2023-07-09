@@ -2,8 +2,7 @@
     background-color: #12263A;
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid #000;
-}
+    }
 
 .section .main-title {
     margin-bottom: 60px;
@@ -17,3 +16,5 @@
 .section.bdBlack {
     border-color: #000;
 }
+
+border-bottom: 10px solid #000;
