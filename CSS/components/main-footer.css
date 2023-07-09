@@ -1,0 +1,25 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    border-top: 10px solid #000;
+    background-color: #000;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+.main-footer .action {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.main-footer .logoF{
+    width: 45px;
+    height: 45px;
+}
+
+.main-footer .-git {
+    background-color: #fff;
+    border-radius: 7px;
+}
