@@ -77,15 +77,17 @@
   }
   
   .button-container .button:before {
+    display: block;
+    box-sizing: border-box;
     content: "";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
     z-index: -99;
+    justify-content: center;
   }
   
   .button-container .button:nth-child(1) {
@@ -94,4 +96,18 @@
   
   .button-container .button:nth-child(2) {
     float: right;
+  }
+
+  .button-container .button-icon-left {
+    width: 41px;
+    height: 30px;
+    margin-top: 11px;
+    margin-left: 3px;
+  }
+
+  .button-container .button-icon-right {
+    margin-top: 11px;
+    width: 41px;
+    height: 30px;
+    margin-left: 6px;
   }
